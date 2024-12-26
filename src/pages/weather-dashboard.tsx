@@ -1,3 +1,4 @@
+import CurrentWeather from "@/components/current-weather"
 import WeatherSkeleton from "@/components/loading-skeleton"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Button } from "@/components/ui/button"
@@ -104,6 +105,22 @@ const WeatherDashboard = () => {
       </div>
 
       {/* current and hourly weather */}
+      <div>
+        <div>
+          {/* current weather */}
+          <CurrentWeather 
+            data={weatherQuery.data}
+            locationName={locationName}
+           />
+
+          {/* hourly temprature */}
+        </div>
+
+        <div>
+          {/* details */}
+          {/* forecast */}
+        </div>
+      </div>
     </div>
   )
 }
