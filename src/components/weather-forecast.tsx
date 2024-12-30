@@ -36,13 +36,13 @@ const WeatherForecast = ({ data }: WeatherForecastProps) => {
             };
         } else {
             acc[date].temp_min = Math.min(acc[date].temp_min, forecast.main.temp_min);
-            acc[date].temp_min = Math.min(acc[date].temp_max, forecast.main.temp_max);
+            acc[date].temp_max = Math.max(acc[date].temp_max, forecast.main.temp_max);
         }
 
         return acc;
     }, {} as Record<string, DailyForecast>);
 
-    const nextDays = Object.values(dailyForecasts).slice(0, 6);
+    const nextDays = Object.values(dailyForecasts).slice(0, 5);
 
     const formatTemp = (temp: number) => `${Math.round(temp)}°`;
 
@@ -56,11 +56,11 @@ const WeatherForecast = ({ data }: WeatherForecastProps) => {
                 {nextDays.map((day) => {
                     return (
                         <div 
-                            key={day.date}
+                            key={day.date*1000}
                             className="grid grid-cols-3 items-center gap-4 rounded-lg border p-4"
                         >
                             <div className="">
-                                <p className="font-medium">{format(new Date(day.date * 1000), "EEE, MMM d")}</p>
+                                <p className="font-medium">{format(new Date(day.date * 1000), "EEE, MMM dd")}</p>
                                 <p className="text-sm text-muted-foreground capitalize">{day.weather.description}</p>
                             </div>
 
