@@ -39,7 +39,7 @@ const CityPage = () => {
   return (
     <div >
       {/* favourite cities */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between pb-5">
         <h1 className="text-3xl font-bold tracking-tight">
           {params.cityName}, {weatherQuery.data.sys.country}
         </h1>

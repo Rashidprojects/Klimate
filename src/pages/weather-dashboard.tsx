@@ -1,4 +1,5 @@
 import CurrentWeather from "@/components/current-weather"
+import FavouriteCities from "@/components/favourite-cities"
 import HourlyTemprature  from "@/components/hourly-temprature"
 import WeatherSkeleton from "@/components/loading-skeleton"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
@@ -93,6 +94,8 @@ const WeatherDashboard = () => {
   return (
     <div >
       {/* favourite cities */}
+      <FavouriteCities />
+
       <div className="flex items-center justify-between">
         <h1 className="text-xl font-bold tracking-tight">My Location</h1>
         <Button 
