@@ -34,6 +34,7 @@ const FavouriteCities = () => {
                         />
                 })}
             </div>
+          <ScrollBar orientation="horizontal" />
         </ScrollArea>
     </>
   );
