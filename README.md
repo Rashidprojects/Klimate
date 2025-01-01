@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="public/logo.png" alt="Klimate Logo" width="50" /> Klimate
+# <img src="public/logo2.png" alt="Klimate Logo" width="50" /> Klimate
 
 <!-- <p><em>Your go-to weather forecast app powered by the latest weather API</em></p> -->
 <p><em>Your go-to weather forecast app powered by the latest weather data for real-time updates, accurate forecasting, and location-based information.</em></p>
