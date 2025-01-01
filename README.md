@@ -1,11 +1,12 @@
 <div align="center">
 
-# 🌤️ WeatherApp
+# <img src="public/logo.png" alt="Klimate Logo" width="50" /> Klimate
 
-<p><em>Your go-to weather forecast app powered by the latest weather API</em></p>
+<!-- <p><em>Your go-to weather forecast app powered by the latest weather API</em></p> -->
+<p><em>Your go-to weather forecast app powered by the latest weather data for real-time updates, accurate forecasting, and location-based information.</em></p>
 
-[![Website](https://img.shields.io/badge/🌐_Website-Visit_Our_Site-brightgreen?style=for-the-badge&logoColor=white)](https://weatherapp.example.com)
-[![Frontend](https://img.shields.io/badge/Frontend-Vercel-black?style=for-the-badge&logo=vercel)](https://weatherapp.example.com)
+[![Website](https://img.shields.io/badge/🌐_Website-Visit_Our_Site-brightgreen?style=for-the-badge&logoColor=white)](https://klimate-live.vercel.app/)
+[![Frontend](https://img.shields.io/badge/Frontend-Vercel-black?style=for-the-badge&logo=vercel)](https://klimate-live.vercel.app/)
 [![Weather API](https://img.shields.io/badge/Weather_API-OpenWeather-brightblue?style=for-the-badge&logo=openweathermap)](https://openweathermap.org/api)
 
 <br>
@@ -55,6 +56,7 @@ If you find this project useful, please consider giving it a star on GitHub! You
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-%232A3F5F?style=flat&logo=vite&logoColor=F7C02C)
 
 </details>
 
@@ -72,7 +74,7 @@ If you find this project useful, please consider giving it a star on GitHub! You
 
 <div align="center">
 
-**[Explore WeatherApp](https://weatherapp.example.com) | [Try Weather Search](https://weatherapp.example.com/search)**
+**[Explore WeatherApp](https://klimate-live.vercel.app/) | [Try Weather Search](https://klimate-live.vercel.app/)**
 
 </div>
 
