@@ -23,7 +23,7 @@ const FavouriteCities = () => {
 
   return (
     <>
-        <h1 className="text-xl font-bold tracking-tight pb-2">Favourites</h1>
+        <h1 className="text-xl font-bold tracking-tight pb-2">Favourite Cities</h1>
         <ScrollArea className="w-full pb-4">
             <div className="flex gap-4">
                 {favourites.map((city) => {
