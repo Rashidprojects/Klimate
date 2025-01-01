@@ -30,6 +30,7 @@ const CitySearch = () => {
         });
 
         setOpen(false);
+        setQuery('');
         navigate(`/city/${name.trim()}?lat=${lat}&lon=${lon}`);
     };
 
